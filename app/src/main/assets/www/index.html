@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Blocks Puzzle</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<script src="cordova.js"></script>
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <script type="text/javascript" src="lib/phaser.min.js"></script>
+    <style type="text/css">
+		body {
+			background-image: url('assets/bg2.png');
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			font-size: 12px;
+			height: 100%;
+			margin: 0px;
+			padding: 0px;
+			text-transform: uppercase;
+			width: 100%;
+			overflow: hidden;
+		}
+        canvas {
+            image-rendering: -moz-crisp-edges;
+            image-rendering: -o-crisp-edges;
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: crisp-edges;
+            -ms-interpolation-mode: nearest-neighbor;
+        }
+    </style>
+</head>
+
+<body>
+	<script src="blocks.js"></script>
+	<script src="game.js"></script>
+	<script src="hooks.js"></script>
+</body>
+
+</html>
